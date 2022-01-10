@@ -8,6 +8,7 @@
     "vite": "vite"
   },
   "dependencies": {
+    "@vueuse/core": "^7.5.3",
     "core-js": "^3.6.5",
     "vite": "^2.7.10",
     "vue": "^3.0.0",
