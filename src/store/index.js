@@ -5,9 +5,10 @@ export default createStore({
     theme: 'light',
     language: '',
     color: {
-      primary: '#000',
+      primary: 'amber',
       secondary: '#fff',
-    }
+    },
+    colors: ["slate", "gray", "zinc", "neutral", "stone", "red", "orange", "amber", "yellow", "lime", "green", "emerald", "teal", "cyan", "sky", "blue", "indigo", "violet", "purple", "fuchsia", "pink", "rose"]
   },
   mutations: {
   },
