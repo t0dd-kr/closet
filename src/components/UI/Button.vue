@@ -11,7 +11,7 @@
 </script>
 
 <template>
-  <div :class="`text-white rounded-lg text-xl py-4 px-10 inline-flex hover:cursor-pointer transition-all button filled ${color || $store.state.color.primary}`">
+  <div :class="`button text-white rounded-lg text-xl py-4 px-10 inline-flex justify-center justify-items-center hover:cursor-pointer transition-all ${color || $store.state.setting.color.primary} ${$attrs.class}`">
     <slot></slot>
   </div>
 </template>

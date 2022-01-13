@@ -1,7 +1,10 @@
 $colors: ("slate", "gray", "zinc", "neutral", "stone", "red", "orange", "amber", "yellow", "lime", "green", "emerald", "teal", "cyan", "sky", "blue", "indigo", "violet", "purple", "fuchsia", "pink", "rose");
 
 @each $color in $colors {
-  .button.filled.#{$color} {
+  .button.#{$color} {
     @apply bg-#{$color}-500 hover:bg-#{$color}-400;
+  }
+  .bg-#{$color} {
+    @apply bg-#{$color}-500;
   }
 }
